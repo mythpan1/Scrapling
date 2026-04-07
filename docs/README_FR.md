@@ -191,6 +191,7 @@ MySpider().start()
 <a href="https://hasdata.com/?utm_source=github&utm_medium=banner&utm_campaign=D4Vinci" target="_blank" title="The web scraping service that actually beats anti-bot systems!"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/hasdata.png"></a>
 <a href="https://proxyempire.io/?ref=scrapling&utm_source=scrapling" target="_blank" title="Collect The Data Your Project Needs with the Best Residential Proxies"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/ProxyEmpire.png"></a>
 <a href="https://www.webshare.io/?referral_code=48r2m2cd5uz1" target="_blank" title="The Most Reliable Proxy with Unparalleled Performance"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/webshare.png"></a>
+<a href="https://www.crawleo.dev/?utm_source=github&utm_medium=sponsor&utm_campaign=scrapling" target="_blank" title="Supercharge your AI with Real-Time Web Intelligence"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/crawleo.png"></a>
 <a href="https://browser.cash/?utm_source=D4Vinci&utm_medium=referral" target="_blank" title="Browser Automation & AI Browser Agent Platform"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/browserCash.png"></a>
 
 <!-- /sponsors -->
@@ -208,6 +209,7 @@ MySpider().start()
 - 💾 **Pause & Reprise** : Persistance du crawl basée sur des checkpoints. Appuyez sur Ctrl+C pour un arrêt gracieux ; redémarrez pour reprendre là où vous vous étiez arrêté.
 - 📡 **Mode streaming** : Diffusez les éléments scrapés en temps réel via `async for item in spider.stream()` avec des statistiques en temps réel - idéal pour les UI, pipelines et crawls de longue durée.
 - 🛡️ **Détection des requêtes bloquées** : Détection automatique et réessai des requêtes bloquées avec une logique personnalisable.
+- 🤖 **Conformité robots.txt** : Flag optionnel `robots_txt_obey` qui respecte les directives `Disallow`, `Crawl-delay` et `Request-rate` avec mise en cache par domaine.
 - 📦 **Export intégré** : Exportez les résultats via des hooks et votre propre pipeline ou l'export JSON/JSONL intégré avec `result.items.to_json()` / `result.items.to_jsonl()` respectivement.
 
 ### Récupération avancée de sites web avec support de sessions

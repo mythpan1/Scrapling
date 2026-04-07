@@ -191,6 +191,7 @@ MySpider().start()
 <a href="https://hasdata.com/?utm_source=github&utm_medium=banner&utm_campaign=D4Vinci" target="_blank" title="The web scraping service that actually beats anti-bot systems!"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/hasdata.png"></a>
 <a href="https://proxyempire.io/?ref=scrapling&utm_source=scrapling" target="_blank" title="Collect The Data Your Project Needs with the Best Residential Proxies"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/ProxyEmpire.png"></a>
 <a href="https://www.webshare.io/?referral_code=48r2m2cd5uz1" target="_blank" title="The Most Reliable Proxy with Unparalleled Performance"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/webshare.png"></a>
+<a href="https://www.crawleo.dev/?utm_source=github&utm_medium=sponsor&utm_campaign=scrapling" target="_blank" title="Supercharge your AI with Real-Time Web Intelligence"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/crawleo.png"></a>
 <a href="https://browser.cash/?utm_source=D4Vinci&utm_medium=referral" target="_blank" title="Browser Automation & AI Browser Agent Platform"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/browserCash.png"></a>
 
 <!-- /sponsors -->
@@ -208,6 +209,7 @@ MySpider().start()
 - 💾 **일시정지 & 재개**: 체크포인트 기반의 크롤링 영속화. Ctrl+C로 정상 종료하고, 재시작하면 중단된 지점부터 이어갑니다.
 - 📡 **스트리밍 모드**: `async for item in spider.stream()`으로 스크레이핑된 아이템을 실시간 통계와 함께 스트리밍으로 수신 - UI, 파이프라인, 장시간 크롤링에 적합합니다.
 - 🛡️ **차단된 요청 감지**: 커스텀 로직을 통한 차단된 요청의 자동 감지 및 재시도를 지원합니다.
+- 🤖 **robots.txt 준수**: 선택적 `robots_txt_obey` 플래그로 `Disallow`, `Crawl-delay`, `Request-rate` 지시문을 도메인별 캐싱과 함께 준수합니다.
 - 📦 **내장 내보내기**: 훅이나 자체 파이프라인, 또는 내장 JSON/JSONL로 결과를 내보냅니다. 각각 `result.items.to_json()` / `result.items.to_jsonl()`을 사용합니다.
 
 ### 세션을 지원하는 고급 웹사이트 가져오기

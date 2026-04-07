@@ -191,6 +191,7 @@ MySpider().start()
 <a href="https://hasdata.com/?utm_source=github&utm_medium=banner&utm_campaign=D4Vinci" target="_blank" title="The web scraping service that actually beats anti-bot systems!"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/hasdata.png"></a>
 <a href="https://proxyempire.io/?ref=scrapling&utm_source=scrapling" target="_blank" title="Collect The Data Your Project Needs with the Best Residential Proxies"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/ProxyEmpire.png"></a>
 <a href="https://www.webshare.io/?referral_code=48r2m2cd5uz1" target="_blank" title="The Most Reliable Proxy with Unparalleled Performance"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/webshare.png"></a>
+<a href="https://www.crawleo.dev/?utm_source=github&utm_medium=sponsor&utm_campaign=scrapling" target="_blank" title="Supercharge your AI with Real-Time Web Intelligence"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/crawleo.png"></a>
 <a href="https://browser.cash/?utm_source=D4Vinci&utm_medium=referral" target="_blank" title="Browser Automation & AI Browser Agent Platform"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/browserCash.png"></a>
 
 <!-- /sponsors -->
@@ -208,6 +209,7 @@ MySpider().start()
 - 💾 **Pause & Resume**: Persistencia de rastreo basada en Checkpoint. Presiona Ctrl+C para un cierre ordenado; reinicia para continuar desde donde lo dejaste.
 - 📡 **Modo Streaming**: Transmite elementos extraídos a medida que llegan con `async for item in spider.stream()` con estadísticas en tiempo real - ideal para UI, pipelines y rastreos de larga duración.
 - 🛡️ **Detección de Solicitudes Bloqueadas**: Detección automática y reintento de solicitudes bloqueadas con lógica personalizable.
+- 🤖 **Cumplimiento de robots.txt**: Flag opcional `robots_txt_obey` que respeta las directivas `Disallow`, `Crawl-delay` y `Request-rate` con caché por dominio.
 - 📦 **Exportación Integrada**: Exporta resultados a través de hooks y tu propio pipeline o el JSON/JSONL integrado con `result.items.to_json()` / `result.items.to_jsonl()` respectivamente.
 
 ### Obtención Avanzada de Sitios Web con Soporte de Session
